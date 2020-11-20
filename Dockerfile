@@ -1,16 +1,10 @@
-FROM python:3.6-alpine
+FROM python:3.7
 
-MAINTAINER kyarser "test@test.com"
 
-COPY ./flask-sputnik-kz /srv/www/flask-sputnik-kz
 
-WORKDIR /srv/www/flask-sputnik-kz
-
+COPY . /app
+WORKDIR /app
 RUN pip install -r requirements.txt
-
-
-
-
 ENTRYPOINT [ "python" ]
 
 CMD [ "main.py"]
