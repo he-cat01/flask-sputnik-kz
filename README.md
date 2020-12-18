@@ -6,7 +6,7 @@
 
 ### Особенность:
 1) Приложение развертывается с помощью docker-a.
-2) Использованные технологии Flask, SQLAlchemy, BackgroundScheduler, bs4
+2) Использованные технологии Flask, SQLAlchemy, BackgroundScheduler, bs4.
 
 ### Запуск сервера
 ```
